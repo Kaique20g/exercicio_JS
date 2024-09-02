@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário HTML</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario HTML</h1>
+        <form id="form-numerico">
+            <div class="form-group">
+                <input type="number" id="campoA" placeholder="Campo A" required>
+                <input type="number" id="campoB" placeholder="Campo B" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="message success-message" style="display:none;"></div>
+        <div class="message error-message" style="display:none;"></div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
